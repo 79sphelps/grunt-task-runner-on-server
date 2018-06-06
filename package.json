@@ -1,0 +1,29 @@
+{
+  "name": "grunt-project",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "cookie-parser": "^1.4.3",
+    "debug": "^2.6.9",
+    "express": "^4.16.3",
+    "http-errors": "^1.6.3",
+    "morgan": "^1.9.0",
+    "node-sass-middleware": "^0.11.0",
+    "pug": "^2.0.0-beta11"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.3",
+    "grunt-concurrent": "^2.3.1",
+    "grunt-contrib-cssmin": "^2.2.1",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-contrib-nodeunit": "^2.0.0",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-uglify": "^3.3.0",
+    "grunt-contrib-watch": "^1.1.0",
+    "grunt-node-sass": "^1.0.1",
+    "grunt-nodemon": "^0.4.2"
+  }
+}
